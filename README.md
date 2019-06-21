@@ -1,8 +1,8 @@
 # SmartHire
-##### A project for TechTogetherBoston2019 ##
+##### A project for TechTogetherBoston2019 ([Devpost](https://devpost.com/software/techtogether-1d37zi)) ##
 
 ### Motivation
-Women and people of color are more likely to see discrimination in the hiring process. There is a lack of diversity in the senior leadership of many companies. AI systems used to automate recruiting can also contain AI bias if the system is trained on bad data that contains implicit biases and excludes certain groups of people, making the AI's decisions untrustworthy. As such, we wanted to make an automated system that is unbiased and fair for everybody.
+People with underrepresented gender and racial identities are more likely to see discrimination in the hiring process. There is a lack of diversity in the senior leadership of many companies. AI systems used to automate recruiting can also contain AI bias if the system is trained on bad data that contains implicit biases and excludes certain groups of people, making the AI's decisions untrustworthy. As such, we wanted to make an automated system that is unbiased and fair for everybody.
 
 ### What is SmartHire
 SmartHire is an automated recruitment platform that uses the power of AI to help hiring managers make fair, unbiased hiring decisions. It screens and analyzes hiring documents (resumes, cover letters etc.) to make recommendations about the top candidates to consider from a pool of applicants, thus saving hiring managers' time and resources.
@@ -13,7 +13,7 @@ Our goal is to make recommendations about the suitable applicants for a job auto
 We advertised the software by making an informative webpage where recruiters can create an account with their organization. They are able to use our software once they are authenticated. They would be taken to the interface which currently includes resume screening and would be brought to a screen where they can specify what they are looking for in job candidates and where they can upload the resumes they receive for the opening.
 
 ### How to evaluate resumes
-We used three measures using the IBM Cloud platform:</br>
+We used three measures on IBM Cloud platform:</br>
 - how close the keywords used in the resume are to the words used in the job description</br>
 - how close categorically close the resume and the job description are (i.e. taking into account the context of written work)</br>
 - how close the concepts in the resume are to the concepts in the job description (i.e. taking into account underlying ideas in the writing)</br>
@@ -23,9 +23,16 @@ We used three measures using the IBM Cloud platform:</br>
 ### Tools
 We developed front-end in HTML, CSS, JavaScript, and Bootstrap. For back-end, we coded primarily in Python. We used IBM's Natural Language Understanding APIs, Word2Vec model in gensim API, Flask framework and Sqlchemy ORM.
 
-### Struggles....(things we hope to further develop in the future)
+### Struggles....(and things we hope to further develop in the future)
 Implementing better communication between Front-end and Back-end
 Implementing data pipeline
 Using IBM AIF360 library for making the result less biased
 Initial struggles with GitHub and Wi-Fi
 
+### Contributers
+[Hikari](https://github.com/hikarimn),  [Hoang](https://github.com/hoang-ho), [Jaya](https://github.com/jayaguptaON),  [Marina](https://github.com/marinasemen0va),  [Neha](https://github.com/nehap86) (alphabetical order)
+
+### Awards
+1st Place - IBM Research Award - Trusted AI: Making AI Safer and More Fair</br>
+1st Place - Liberty Mutual - Gender Equality Hack
+</br>
